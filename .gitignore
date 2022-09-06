@@ -1,0 +1,4 @@
+.pc/
+config.def.h
+config.h
+slock

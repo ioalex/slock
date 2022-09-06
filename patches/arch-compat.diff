@@ -1,0 +1,14 @@
+The "nogroup" group is named "nobody" on Arch Linux.
+See: <https://github.com/archlinux/svntogit-community/blob/packages/slock/trunk/PKGBUILD>
+Index: slock/config.h
+===================================================================
+--- slock.orig/config.def.h
++++ slock/config.def.h
+@@ -1,6 +1,6 @@
+ /* user and group to drop privileges to */
+ static const char *user  = "nobody";
+-static const char *group = "nogroup";
++static const char *group = "nobody";
+ 
+ static const char *colorname[NUMCOLS] = {
+ 	[INIT] =   "black",     /* after initialization */
